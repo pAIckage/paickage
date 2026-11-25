@@ -69,6 +69,17 @@ the experiment. The commands should be repeated from a committed revision;
 the source reference alone does not prove an uncommitted working tree is clean.
 No official release tag was created.
 
+The committed-source repeat used
+[`c4dff11ec314e0b159fea93999bb939beaeba59b`](https://github.com/paickage/paickage/commit/c4dff11ec314e0b159fea93999bb939beaeba59b)
+with a clean working tree. Both Composer validations, both installs and all four
+version/runtime combinations passed. Generated archive SHA-256 values were:
+
+- `0.1.0`: `74dea5cf79db7384c1f0cb2328248fc4895961c03a6ad05b4141fdc945cdda29`
+- `0.2.0`: `4a8064e704ef89d4fc6995da00c956549d7feebb54ccef37e2750fd6df6aa0e5`
+
+These identify this fixture generation, not a published package release. Archive
+byte reproducibility across ZIP library versions is not established.
+
 ## Distribution recommendation
 
 Begin with static Composer metadata plus package-specific archives. It preserves
