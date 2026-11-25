@@ -1,1 +1,8 @@
 /wiki/
+/vendor/
+/composer.lock
+/.local/
+/packages/*/vendor/
+/packages/*/composer.lock
+/.phpunit.cache/
+/tests/.pest/

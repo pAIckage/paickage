@@ -1,0 +1,137 @@
+{
+    "$schema": "catalog.schema.json",
+    "schema_version": 1,
+    "architecture_standard": "standards/architecture.md#revision-0001",
+    "packages": [
+        {
+            "name": "paickage/bytes",
+            "namespace": "Paickage\\Bytes",
+            "directory": null,
+            "description": "Bounds-checked binary data manipulation.",
+            "architecture": {
+                "scope": {
+                    "state": "proposed",
+                    "value": "Bounds-checked binary data manipulation."
+                },
+                "layer": {
+                    "state": "proposed",
+                    "value": 0
+                },
+                "dependencies": {
+                    "state": "not_researched",
+                    "value": null
+                },
+                "extensions": {
+                    "state": "not_researched",
+                    "value": null
+                }
+            },
+            "research_refs": [],
+            "tracking_issue": "https://github.com/paickage/paickage/issues/7"
+        },
+        {
+            "name": "paickage/bigint",
+            "namespace": "Paickage\\BigInt",
+            "directory": null,
+            "description": "Exact arbitrary-precision integer arithmetic.",
+            "architecture": {
+                "scope": {
+                    "state": "proposed",
+                    "value": "Exact arbitrary-precision integer arithmetic."
+                },
+                "layer": {
+                    "state": "proposed",
+                    "value": 0
+                },
+                "dependencies": {
+                    "state": "not_researched",
+                    "value": null
+                },
+                "extensions": {
+                    "state": "not_researched",
+                    "value": null
+                }
+            },
+            "research_refs": [],
+            "tracking_issue": "https://github.com/paickage/paickage/issues/8"
+        },
+        {
+            "name": "paickage/encoding",
+            "namespace": "Paickage\\Encoding",
+            "directory": null,
+            "description": "Strict binary-to-text encoding and decoding.",
+            "architecture": {
+                "scope": {
+                    "state": "proposed",
+                    "value": "Strict binary-to-text encoding and decoding."
+                },
+                "layer": {
+                    "state": "proposed",
+                    "value": 0
+                },
+                "dependencies": {
+                    "state": "not_researched",
+                    "value": null
+                },
+                "extensions": {
+                    "state": "not_researched",
+                    "value": null
+                }
+            },
+            "research_refs": [],
+            "tracking_issue": "https://github.com/paickage/paickage/issues/9"
+        },
+        {
+            "name": "paickage/random",
+            "namespace": "Paickage\\Random",
+            "directory": null,
+            "description": "Additional randomness capabilities beyond native PHP, if justified.",
+            "architecture": {
+                "scope": {
+                    "state": "proposed",
+                    "value": "Additional randomness capabilities beyond native PHP, if justified."
+                },
+                "layer": {
+                    "state": "proposed",
+                    "value": 0
+                },
+                "dependencies": {
+                    "state": "not_researched",
+                    "value": null
+                },
+                "extensions": {
+                    "state": "not_researched",
+                    "value": null
+                }
+            },
+            "research_refs": [],
+            "tracking_issue": "https://github.com/paickage/paickage/issues/10"
+        },
+        {
+            "name": "paickage/clock",
+            "namespace": "Paickage\\Clock",
+            "directory": null,
+            "description": "Predictable wall-clock and monotonic time abstractions.",
+            "architecture": {
+                "scope": {
+                    "state": "proposed",
+                    "value": "Predictable wall-clock and monotonic time abstractions."
+                },
+                "layer": {
+                    "state": "proposed",
+                    "value": 0
+                },
+                "dependencies": {
+                    "state": "not_researched",
+                    "value": null
+                },
+                "extensions": {
+                    "state": "not_researched",
+                    "value": null
+                }
+            },
+            "research_refs": [],
+            "tracking_issue": "https://github.com/paickage/paickage/issues/11"
+        }
+    ]
+}
