@@ -14,6 +14,6 @@ Recommendation prepared 2026-11-25 under [research task #6](https://github.com/p
 
 The resulting recommendation is **Bytes first; Clock as fallback; Encoding and BigInt when approved consumers justify them; Random deferred pending additional value**. This is a technical recommendation, not a change to Project priority or lifecycle by itself. The GitHub Project remains authoritative for scheduling and coordination.
 
-The [proposed Bytes boundary](../proposals/bytes-pilot.md) is ready for review. Before substantial production implementation, the coordinator must attach the actual result from the separate [distribution experiment #5](https://github.com/paickage/paickage/issues/5) and obtain an explicit owner decision referencing the proposal revision. This document does not assert that another agent's experiment passed.
+The [proposed Bytes boundary](../proposals/bytes-pilot.md) is ready for review. The reviewed [distribution result](distribution-feasibility.md) demonstrates independent local archive installation of two fixture versions on PHP 8.4.27/8.5.12, without monorepo access or network. Public distribution and real package dependency compatibility remain unverified. Obtain an explicit owner decision referencing the proposal revision before substantial production implementation.
 
 by-dolly
