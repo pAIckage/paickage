@@ -18,6 +18,9 @@ proposals, not installation promises.
 - [Paickage Project](https://github.com/orgs/paickage/projects/2)
 - [Human guide](https://github.com/paickage/paickage/wiki)
 - [Charter adoption record](planning/decisions/0001-monorepo-charter.md)
+- [Five findings and pilot comparison](planning/research/pilot-comparison.md)
+- [Local distribution feasibility](planning/research/distribution-feasibility.md)
+- [Bytes pilot proposal — owner approval pending](planning/proposals/bytes-pilot.md)
 
 The root Composer project is a development workspace. Consumers will install
 individual packages through a distribution mechanism verified during the pilot;

@@ -39,6 +39,6 @@ Review offset-plus-length overflow without introducing unsafe intermediate arith
 
 The owner must explicitly approve or amend revision 1's purpose, scope, exclusions, Layer 0 classification, empty runtime package dependency list, empty mandatory-extension list, 64-bit platform requirement and material constraints. Record the actual owner response in the repository's approval records; this proposal is not that approval.
 
-Substantial implementation also requires a demonstrated distribution feasibility result. Public package publication and official release tags require separate explicit authorization even after architectural approval.
+The [reviewed distribution experiment](../research/distribution-feasibility.md) has demonstrated local archive installation independently of the monorepo, including explicit resolution of two fixture versions and public API checks on PHP 8.4.27/8.5.12. That feasibility prerequisite is met; it does not establish future Bytes correctness or public hosting. Architectural approval remains outstanding. Public package publication and official release tags require separate explicit authorization even after architectural approval.
 
 by-dolly
